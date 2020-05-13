@@ -1,10 +1,10 @@
 import * as utils from "./helpers/utils";
 
-export class Generator {
-    constructor(public templatePath: string) { }
+function validateTemplateFile(templatePath: string) {
+    utils.IsValidFile(templatePath);
+    utils.IsValidTemplate();
+}
 
-
-    public run() {
-        utils.IsValidFile(this.templatePath);
-    }
+export function run(templatePath: string) {
+    validateTemplateFile(templatePath);
 }
