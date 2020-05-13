@@ -1,0 +1,23 @@
+{
+  "name": "armtemplateparameterfilegenerator",
+  "version": "1.0.0",
+  "description": "Automatically generate a populated parameters file for a given ARM template",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/cli/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EwanNoble/ARMTemplateParameterFileGenerator.git"
+  },
+  "author": "EwanNoble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EwanNoble/ARMTemplateParameterFileGenerator/issues"
+  },
+  "homepage": "https://github.com/EwanNoble/ARMTemplateParameterFileGenerator#readme",
+  "dependencies": {
+    "typescript": "^3.9.2",
+    "yargs": "^15.3.1"
+  }
+}
